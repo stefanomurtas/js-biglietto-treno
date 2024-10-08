@@ -12,18 +12,18 @@ if ( eta <= 17){
    let underAge=prezzo*0.2;
    let underPrice=prezzo-underAge;
     console.log (underPrice);
-    alert( underPrice.toFixed(2)); 
+    alert( "Il prezzo del biglietto è " + underPrice.toFixed(2)); 
 // condizione 3(se età  è maggiore o uguale a 65 allora applicare sconto 40%)
 }else if (eta > 65) 
 {
     let overAge=prezzo*0.4;
     let overPrice=prezzo-overAge;
     console.log (overPrice);
-    alert( overPrice.toFixed(2));
+    alert( "Il prezzo del biglietto è " + overPrice.toFixed(2));
 }
 else{
     console.log (prezzo);
-    alert( overPrice.toFixed(2));
+    alert( "Il prezzo del biglietto è " + prezzo.toFixed(2));
 
 }
 // else if // condizione 2(se età  è maggiore di 17 e inferiore a 65 prezzo invariato)
